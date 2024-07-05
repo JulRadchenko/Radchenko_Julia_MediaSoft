@@ -1,0 +1,550 @@
+@media (orientation: landscape) {
+    .container {
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+    .header__logo {
+        width: 126px;
+        height: 50px;
+        margin-right: 550px;
+    }
+    .nav__item {
+        padding-right: 60px;
+    }
+    .button {
+        width: 56px;
+        height: 56px;
+        padding: 0;
+        margin-top: 10px;
+        margin-right: 30px;
+        margin-left: 60px;
+    }
+    .button svg {
+        width: 24px;
+        height: 24px;
+    }
+    .button-green {
+        width: 220px;
+        height: 56px;
+        margin-right: 30px;
+    }
+    .white {
+        font-size: 18px;
+    }
+    .gray {
+        font-size: 24px;
+    }
+    .rectangle {
+        width: 70%;
+        height: auto;
+        margin-right: 20px;
+        padding-top: 20px;
+        padding-left: 60px;
+        padding-right: 60px;
+        padding-bottom: 20px;
+    }
+    .head-rectangle {
+        font-size: 32px;
+    }
+    .icons svg {
+        margin-bottom: 100px;
+        width: 100%;
+        height: 150px;
+    }
+    .button-center {
+        margin-bottom: 40px;
+    }
+    .button-gray {
+        width: 220px;
+        height: 56px;
+        padding-inline: 20px;
+        border-radius: 50px;
+    }
+    .more-bottom svg {
+        width: 120px;
+        height: 25px;
+    }
+    .h-five {
+        font-size: 24px;
+    }
+    .new-review-paddings {
+        padding-top: 20px;
+        padding-left: 60px;
+        padding-right: 60px;
+    }    
+    .down {
+        font-size: 18px;
+    }
+    .button-arrow {
+        width: 56px;
+        height: 56px;
+    }
+    .button-arrow svg {
+        padding: 12.5px;
+        width: 30px;
+        height: 30px;
+    }
+    .button-arrow--prev {
+        left: -50px;
+    }
+    .button-arrow--next {
+        right: -50px;
+    }
+    .card {
+        margin-right: 20px;
+    }
+    .contact-image {
+        width: 307px;
+        height: auto;
+    }
+    .socialmedia-button {
+        width: 56px;
+        height: 56px;
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+    .socialmedia-button svg {
+        width: 24px;
+        height: 24px;
+    }
+    .h-four {
+        font-size: 40px;
+    }
+    .clean-gray {
+        font-size: 24px;
+    }
+}
+
+@media (orientation: portrait) {
+    .container {
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+    .header__logo {
+        margin-top: 0px;
+        width: 20%;
+        height: 20%;
+    }
+    .nav__item {
+        padding-right: 5px;
+        font-size: 12px;
+    }
+    .button {
+        width: 40px;
+        height: 40px;
+        padding: 0;
+        margin-top: 10px;
+        margin-right: 7.5px;
+        margin-left: 15px;
+    }
+    .button svg {
+        width: 14px;
+        height: 14px;
+    }
+    .button-green {
+        padding-bottom: 10px;
+        width: 170px;
+        height: 40px;
+        margin-right: 10px;
+    }
+    .white {
+        font-size: 12px;
+    }
+    .gray {
+        font-size: 15px;
+    }
+    .image {
+        width: 0%;
+    }
+    .rectangle {
+        width: 26%;
+        height: auto;
+        margin-right: 10px;
+        padding-top: 10px;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-bottom: 10px;
+    }
+    .head-rectangle {
+        font-size: 22px;
+    }
+    .icons svg {
+        margin-bottom: 20px;
+        width: 100%;
+        height: 70px;
+    }
+    .button-gray {
+        width: 90px;
+        height: 75px;
+        padding-inline: 5px;
+        border-radius: 20px;
+    }
+    .more-bottom svg {
+        width: 0px;
+    }
+    .h-five {
+        font-size: 18px;
+    }
+    .new-review-paddings {
+        padding-top: 10px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }    
+    .down {
+        font-size: 10px;
+    }
+    .button-arrow {
+        width: 28px;
+        height: 28px;
+    }
+    .button-arrow svg {
+        padding: 6px;
+        width: 15px;
+        height: 15px;
+    }
+    .button-arrow--prev {
+        left: -10px;
+    }
+    .button-arrow--next {
+        right: -10px;
+    }
+    .card {
+        margin-right: 5px;
+    }
+    .contact-image {
+        width: 150px;
+        height: auto;
+    }
+    .socialmedia-button {
+        width: 28px;
+        height: 28px;
+        margin-right: 5px;
+        margin-left: 5px;
+    }
+    .socialmedia-button svg {
+        width: 12px;
+        height: 12px;
+    }
+    .h-four {
+        font-size: 20px;
+    }
+    .clean-gray {
+        font-size: 16px;
+    }
+}
+
+.container {
+    max-width: 100%;
+}
+
+.header__logo {
+    padding-top: 10px;
+}
+
+.info__title {
+    font-family: "Jost";
+    src: url("/fonts/Jost.woff2") format("woff2");
+    font-size: clamp(40px, 15vw, 140px);
+    transition-duration: 0.5s;
+} 
+
+.info__title:hover {
+    color: #7EA348;
+}
+
+.up {
+    background-color: #eeeff1;
+}
+
+body {
+    font-family: "Jost";
+    src: url("/fonts/Jost.woff2") format("woff2");
+    font-weight: 400;
+    color: #1b1b1d;
+  }
+
+.nav__item {
+    font-family: "Jost";
+    src: url("/fonts/Jost.woff2") format("woff2");
+    font-weight: 500;
+    transition-duration: 0.5s;
+    cursor: pointer;
+}
+
+.nav__item:hover {
+    color: #7EA348;
+}
+
+.button-green {
+    font-family: "Jost";
+    src: url("/fonts/Jost.woff2") format("woff2");
+    padding: 0;
+    border-radius: 50px;
+    background-color: #1b1b1d;
+    padding-inline: 20px;
+    border: 0;
+    box-shadow: 0px 12px 30px 0px rgba(205, 209, 214, 0.28);
+    text-align: center;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.button-green:hover {
+    background-color: #7EA348;
+}
+
+.button-gray {
+    font-family: "Jost";
+    src: url("/fonts/Jost.woff2") format("woff2");
+    padding: 0;
+    background-color: #1b1b1d;
+    border: 0;
+    box-shadow: 0px 12px 30px 0px rgba(205, 209, 214, 0.28);
+    color: #FFFFFF;
+    text-align: center;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+.button-gray span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+  
+.button-gray span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+  
+.button-gray:hover span {
+    padding-right: 25px;
+}
+  
+.button-gray:hover span:after {
+    opacity: 1;
+    right: 0;
+}
+
+.float-right {
+    float: right;
+}
+
+.center {
+    margin-top: 100px;
+    text-align: center;
+}
+
+.white {
+    color: #fcfcfc;
+}
+
+.gray {
+    margin-bottom: 80px;
+    line-height: 1.5;
+    color: #64646A
+}
+
+.clean-gray {
+    line-height: 1.5;
+    color: #64646A
+}
+
+.button {
+    background-color: #fff;
+    border-radius: 50%;
+    border: 0;
+    box-shadow: 0px 12px 30px 0px rgba(205, 209, 214, 0.28);
+    cursor: pointer;
+}
+
+.button svg {
+    fill: rgba(27, 27, 29, 1);
+    transition: fill 0.5s;
+}
+  
+.button:hover svg {
+    fill: #7EA348;
+}  
+
+.socialmedia-button {
+    padding: 0;
+    background-color: #fff;
+    border-radius: 50%;
+    border: 0;
+    box-shadow: 0px 12px 30px 0px rgba(205, 209, 214, 0.28);
+    cursor: pointer;    
+}
+
+.socialmedia-button svg {
+    fill: #64646A;
+    transition: fill 0.5s;
+}
+
+.socialmedia-button:hover svg {
+    fill: #7EA348;
+  }
+
+.footer {
+    margin-top: 40px;
+    font-size: 22px;
+}
+
+.left-footer {
+    color: #64646A;
+    float: right;
+    margin-bottom: 100px;
+}
+
+.gray-footer {
+    color: #64646A;
+    margin-bottom: 100px;
+}
+
+.image {
+    margin-top: 100px;
+}
+
+.rectangle {
+    border: 0;
+    background: #ffffff;
+    box-shadow: 0px 12px 30px 0px rgba(205, 209, 214, 0.28);
+    border-radius: 30px;
+    float: left;
+}
+
+.card {
+    height: auto;
+    border: 0;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    background: #ffffff;
+    box-shadow: 0px 12px 30px 0px rgba(205, 209, 214, 0.28);
+    border-radius: 16px;
+}
+
+.icons {
+    text-align: center;
+}
+
+.button-center {
+    text-align: center;
+}
+
+.figure {
+    display: flex;
+    justify-content: center;
+}
+.figcaption {
+    margin-left: 30px; 
+    text-align: left;
+}
+
+.flex {
+    margin-top: 80px;
+    display: flex;
+}
+
+.flex-clean {
+    margin-top: 5px;
+    display: flex;
+}
+
+.flex-margin {
+    display: flex;
+}
+
+.left {
+    margin-right: 500px;
+}
+
+.order {
+    margin-top: 120px;
+}
+
+.reviews {
+    margin-top: 120px;
+}
+
+.bottom {
+    margin-top: 15px;
+}
+
+.less-bottom {
+    margin-top: 5px;
+}
+
+.more-bottom {
+    margin-left: 20px;
+    margin-top: 45px;
+}
+
+.string {
+    width: 413px;
+    height: 70px;
+    border: 0;
+    background: #ffffff;
+    box-shadow: 0px 12px 30px 0px rgba(205, 209, 214, 0.28);
+    border-radius: 65px;
+    padding-left: 30px;
+    padding-top: 1px;
+    padding-bottom: 10px;
+}
+
+.subscribe-button {
+    font-family: "Jost";
+    src: url("/fonts/Jost.woff2") format("woff2");
+    width: 173px;
+    height: 70px;
+    padding: 0;
+    border-radius: 97px;
+    background-color: #1b1b1d;
+    padding-inline: 20px;
+    border: 0;
+    margin-top: 20px;
+    box-shadow: 0px 12px 30px 0px rgba(205, 209, 214, 0.28);
+    transition-duration: 0.5s;
+    cursor: pointer; 
+}
+
+.subscribe-button:hover {
+    background-color: #7EA348;
+}
+
+.line {
+    width: 100%;
+    height: 1px;
+    border: 0;
+    background: #64646A;
+    margin-bottom: 80px;
+    margin-top: 100px;
+}
+
+.slider-wrapper {
+    position: relative;
+    padding-inline: 60px;
+  }
+  
+.button-arrow {
+    background-color: #fff;
+    border-radius: 50%;
+    border: 0;
+    box-shadow: 0px 12px 30px 0px rgba(205, 209, 214, 0.28);
+    position: absolute;
+    top: 50%;
+    color: #fff;
+    cursor: pointer;
+}
+
+.full-width {
+    width: 100%;
+}
+
+.down {
+    padding-bottom: 40px;
+}
